@@ -24,7 +24,7 @@ The branch contains `library-list.json` (paths grouped by normalized category, c
 ### Cloudflare Pages
 
 #### If this repo powers a [Cloudflare Pages](https://pages.cloudflare.com/) site:
-**Deploy hook after `library` updates** — Create a [deploy hook](https://developers.cloudflare.com/pages/configuration/deploy-hooks/) (same place in the dashboard). In the GitHub repo, add a **repository secret** named `CLOUDFLARE_PAGES_DEPLOY_HOOK_URL` whose value is the **full hook URL** (Settings → Secrets and variables → Actions → *New repository secret*).
+**Deploy hook after `library` updates** — Create a [deploy hook](https://developers.cloudflare.com/pages/configuration/deploy-hooks/) (**Settings → Build → Deploy Hooks**). In the GitHub repo, add a **repository secret** named `CLOUDFLARE_PAGES_DEPLOY_HOOK_URL` whose value is the **full hook URL** (Settings → Secrets and variables → Actions → *New repository secret*).
 
 When the organize workflow **commits and pushes** to `library`, the next step POSTs that URL so Pages starts a build. If there are no changes to `library`, the hook is not called (no redundant builds). The nightly run behaves the same: it only triggers Pages when the scheduled build actually updates `library`.
 
