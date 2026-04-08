@@ -41,3 +41,4 @@ Output is written to `library-out/` by default (ignored by git). Pass a path to 
 ```bash
 python scripts/organize_library.py /path/to/output
 ```
+
