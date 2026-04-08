@@ -1,0 +1,64 @@
+name: Organize library branch
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: organize-library
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build library tree
+        run: python scripts/organize_library.py "$RUNNER_TEMP/library-build"
+
+      - name: Commit and push library branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin library 2>/dev/null || true
+          if git show-ref --verify --quiet refs/remotes/origin/library; then
+            git checkout -B library origin/library
+          else
+            git checkout --orphan library
+            git rm -rf . 2>/dev/null || true
+          fi
+
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+
+          cp -a "$RUNNER_TEMP/library-build/." .
+
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to library branch."
+            exit 0
+          fi
+
+          git commit -m "chore(library): rebuild from default branch recipes"
+          git push origin HEAD:library
