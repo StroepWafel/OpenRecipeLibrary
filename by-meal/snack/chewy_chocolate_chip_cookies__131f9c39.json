@@ -1,0 +1,244 @@
+{
+  "$schema": "https://food-for-eating.com/schema/open-recipe.schema.json",
+  "recipe_uuid": "example.org:recipe:chocolate-chip-chewy-001",
+  "categories": [
+    "sweet",
+    "dessert",
+    "snack",
+    "baked",
+    "comfort_food"
+  ],
+  "cor": [
+    "United States"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "tags": [
+    "chocolate",
+    "chocolate chip",
+    "cookies",
+    "baking",
+    "drop cookies"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "soy"
+  ],
+  "skill_level": "beginner",
+  "meal_type": [
+    "snack",
+    "dessert"
+  ],
+  "prep_time": {
+    "amount": 15,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "cook_time": {
+    "amount": 11,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "total_time": {
+    "amount": 56,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "equipment": [
+    "oven",
+    "refrigerator",
+    "mixing bowl",
+    "electric hand mixer",
+    "baking sheet",
+    "parchment paper"
+  ],
+  "oven_fan": "Off",
+  "oven_temp": {
+    "amount": 177,
+    "unit": "C",
+    "quantity_kind": "temperature",
+    "unit_system": "metric"
+  },
+  "oven_time": {
+    "amount": 11,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "X-Last-Reviewed": "2026-04-08",
+  "recipe_authors": [
+    "StroepWafel"
+  ],
+  "recipe_name": "Chewy Chocolate Chip Cookies",
+  "notes": [
+    "All amounts are metric. Ingredient amounts are for base_yield; to scale, multiply each amount by (target / base_yield.amount) when units match (e.g. 48 cookies → multiply by 48/24 = 2).",
+    "Rest dough at least 30 minutes for better flavor; overnight is best."
+  ],
+  "base_yield": {
+    "amount": 24,
+    "unit": "cookies",
+    "quantity_kind": "count",
+    "unit_system": "metric"
+  },
+  "ingredients": [
+    {
+      "name": "unsalted butter",
+      "processing": [
+        "softened",
+        "room temperature"
+      ],
+      "amount": {
+        "amount": 118,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "granulated sugar",
+      "amount": {
+        "amount": 118,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "light brown sugar",
+      "notes": [
+        "Pack firmly when measuring by volume; these millilitres are for packed brown sugar."
+      ],
+      "amount": {
+        "amount": 118,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "egg",
+      "processing": [
+        "large"
+      ],
+      "amount": {
+        "amount": 1,
+        "unit": "each",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "pure vanilla extract",
+      "amount": {
+        "amount": 5,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "all-purpose flour",
+      "usda_num": "20081",
+      "amount": {
+        "amount": 156,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "baking soda",
+      "amount": {
+        "amount": 2.5,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "fine sea salt",
+      "amount": {
+        "amount": 1.25,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "semi-sweet chocolate chips",
+      "amount": {
+        "amount": 340,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "substitutions": [
+        {
+          "name": "dark chocolate chunks",
+          "notes": [
+            "Roughly chop a bar for irregular pockets of chocolate."
+          ],
+          "amount": {
+            "amount": 340,
+            "unit": "g",
+            "quantity_kind": "mass",
+            "unit_system": "metric"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "step": "In a large bowl, beat butter with granulated and brown sugars until light and fluffy, 2–3 minutes.",
+      "notes": [
+        "Scrape the bowl once halfway through."
+      ]
+    },
+    {
+      "step": "Beat in the egg and vanilla until fully combined.",
+      "haccp": {
+        "control_point": "Use pasteurized eggs if serving to vulnerable populations; otherwise minimize time raw egg sits at room temperature."
+      }
+    },
+    {
+      "step": "In a separate bowl, whisk flour, baking soda, and salt.",
+      "notes": [
+        "Whisk thoroughly so baking soda is evenly distributed."
+      ]
+    },
+    {
+      "step": "Stir dry ingredients into the butter mixture until just combined; do not overmix.",
+      "notes": [
+        "A few streaks of flour are fine before adding chips."
+      ]
+    },
+    {
+      "step": "Fold in chocolate chips (or substitution) until evenly distributed."
+    },
+    {
+      "step": "Cover and chill dough at least 30 minutes, or up to 48 hours."
+    },
+    {
+      "step": "Preheat the oven and line baking sheets with parchment. Portion dough into mounds; leave space for spread.",
+      "notes": [
+        "A medium cookie scoop (~45 ml) works well for uniform cookies."
+      ]
+    },
+    {
+      "step": "Bake until edges are set and centers look slightly underdone; cool on the sheet 5 minutes, then transfer to a rack.",
+      "haccp": {
+        "critical_control_point": "Cookies are safe when baked to a visibly set edge; for food-service settings, verify baked goods cooling and storage within 2 hours of leaving the oven."
+      }
+    }
+  ]
+}

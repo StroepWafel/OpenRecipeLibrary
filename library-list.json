@@ -1,14 +1,82 @@
 {
   "version": 1,
-  "generated_at": "2026-04-08T07:52:17Z",
-  "recipe_count": 0,
+  "generated_at": "2026-04-08T09:58:23Z",
+  "recipe_count": 1,
   "normalization": "Labels are matched after lowercasing and collapsing internal whitespace (e.g. 'SwEEt' and 'Swe et' both map to key 'sweet').",
-  "by_category": {},
-  "by_cor": {},
-  "by_cuisine": {},
-  "by_tag": {},
-  "by_dietary": {},
-  "by_allergen": {},
-  "by_meal_type": {},
-  "by_skill_level": {}
+  "by_category": {
+    "baked": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "comfort_food": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "dessert": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "snack": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "sweet": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  },
+  "by_cor": {
+    "united states": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  },
+  "by_cuisine": {
+    "american": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  },
+  "by_tag": {
+    "baking": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "chocolate": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "chocolate chip": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "cookies": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "drop cookies": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  },
+  "by_dietary": {
+    "vegetarian": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  },
+  "by_allergen": {
+    "eggs": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "milk": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "soy": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "wheat": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  },
+  "by_meal_type": {
+    "dessert": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "snack": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  },
+  "by_skill_level": {
+    "beginner": [
+      "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ]
+  }
 }
