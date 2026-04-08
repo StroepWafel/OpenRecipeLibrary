@@ -21,6 +21,15 @@ GitHub Actions rebuilds the **`library`** branch from `recipes/` when:
 
 The branch contains `library-list.json` (paths grouped by normalized category, country of recipe, cuisine, tags, and other metadata) and `by-meal/<meal>/` for each recipe file. If the branch does not exist yet, the workflow creates it.
 
+### Cloudflare Pages
+
+If this repo powers a [Cloudflare Pages](https://pages.cloudflare.com/) site:
+
+1. **Production branch** — In the Pages project (**Settings → Builds & deployments**), set the production branch to **`library`**, not `main`, so builds use the generated tree. The wizard default that follows `main` only updates when `main` changes; your site content lives on `library`.
+2. **Deploy hook after `library` updates** — Create a [deploy hook](https://developers.cloudflare.com/pages/configuration/deploy-hooks/) (same place in the dashboard). In the GitHub repo, add a **repository secret** named `CLOUDFLARE_PAGES_DEPLOY_HOOK_URL` whose value is the **full hook URL** (Settings → Secrets and variables → Actions → *New repository secret*).
+
+When the organize workflow **commits and pushes** to `library`, the next step POSTs that URL so Pages starts a build. If there are no changes to `library`, the hook is not called (no redundant builds). The nightly run behaves the same: it only triggers Pages when the scheduled build actually updates `library`.
+
 ## Local preview
 
 From the repository root, with Python 3 installed:
