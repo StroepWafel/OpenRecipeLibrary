@@ -1,10 +1,10 @@
 # Open Recipe Library
 
-A community-maintained collection of recipes in **[Open Recipe Standard](https://github.com/OpenRecipeStandard)** JSON. The default branch holds source files; the **`library`** branch is a generated, browsable tree with a machine-readable index.
+A community-maintained collection of recipes in **[Open Recipe Standard](https://github.com/stroepwafel/OpenRecipeStandard)** JSON. The default branch holds source files; the **`library`** branch is a generated, browsable tree with a machine-readable index.
 
 ## Contributing
 
-1. Add one recipe per file under [`recipes/`](recipes/) (nested folders are fine). Files must be valid JSON with at least `recipe_name`. See the [Open Recipe Standard schema](https://github.com/OpenRecipeStandard) for optional fields such as `categories`, `cor`, `cuisine`, `tags`, `dietary`, `allergens`, and `meal_type`.
+1. Add one recipe per file under [`recipes/`](recipes/) (nested folders are fine). Files must be valid JSON with at least `recipe_name`. See the [Open Recipe Standard schema](https://github.com/stroepwafel/OpenRecipeStandard) for optional fields such as `categories`, `cor`, `cuisine`, `tags`, `dietary`, `allergens`, and `meal_type`.
 2. Open a **pull request** against the default branch (`main` or `master`).
 
 You can author or edit Open Recipe Standard JSON in the browser with **[edit.food-for-eating.com](https://edit.food-for-eating.com)**.
