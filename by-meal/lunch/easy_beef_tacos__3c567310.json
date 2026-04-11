@@ -1,0 +1,184 @@
+{
+  "oven_required": false,
+  "prep_time": {
+    "amount": 10,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "cook_time": {
+    "amount": 5,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "total_time": {
+    "amount": 20,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "recipe_uuid": "beec6a9b-69b9-470c-b772-b41e937e6be1",
+  "$schema": "https://food-for-eating.com/schema/open-recipe.schema.json",
+  "recipe_authors": [
+    "StroepWafel"
+  ],
+  "categories": [
+    "Main"
+  ],
+  "cor": [
+    "Mexico"
+  ],
+  "cuisine": [
+    "Mexican"
+  ],
+  "tags": [
+    "tacos",
+    "beef",
+    "quick",
+    "street food"
+  ],
+  "dietary": [
+    "none"
+  ],
+  "allergens": [
+    "gluten",
+    "dairy"
+  ],
+  "meal_type": [
+    "lunch",
+    "dinner"
+  ],
+  "equipment": [
+    "pan",
+    "stove"
+  ],
+  "skill_level": "beginner",
+  "recipe_name": "Easy Beef Tacos",
+  "base_yield": {
+    "amount": 4,
+    "unit": "Serves",
+    "quantity_kind": "count",
+    "unit_system": "metric"
+  },
+  "ingredients": [
+    {
+      "name": "Beef mince",
+      "amount": {
+        "amount": 500,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "Taco seasoning",
+      "amount": {
+        "amount": 1,
+        "unit": "Packet",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      },
+      "substitutions": [
+        {
+          "name": "DIY",
+          "amount": {
+            "amount": 0,
+            "unit": "each",
+            "quantity_kind": "count",
+            "unit_system": "metric"
+          },
+          "processing": [],
+          "notes": [
+            "Combine",
+            "Chili Powder: 1 tablespoon",
+            "Ground Cumin: 1 ½ teaspoons",
+            "Paprika: 1 teaspoon (use smoked paprika for extra depth)",
+            "Garlic Powder: ½ teaspoon",
+            "Salt: ½ teaspoon",
+            "Black Pepper: ¼ teaspoon"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taco shells",
+      "amount": {
+        "amount": 8,
+        "unit": "each",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "Lettuce",
+      "amount": {
+        "amount": 236.5882365,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "Shredded"
+      ]
+    },
+    {
+      "name": "Tomato",
+      "amount": {
+        "amount": 1,
+        "unit": "each",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "Diced"
+      ]
+    },
+    {
+      "name": "Cheese",
+      "amount": {
+        "amount": 236.5882365,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "Shredded"
+      ]
+    },
+    {
+      "name": "Sour cream",
+      "amount": {
+        "amount": 0,
+        "unit": "each",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      },
+      "notes": [
+        "optional"
+      ],
+      "processing": []
+    }
+  ],
+  "steps": [
+    {
+      "step": "Cook beef in a pan until browned."
+    },
+    {
+      "step": "Drain excess fat."
+    },
+    {
+      "step": "Add seasoning + a splash of water, simmer 5 mins.",
+      "notes": []
+    },
+    {
+      "step": "Warm taco shells.",
+      "notes": [
+        "You can use an oven or the microwave, if need be"
+      ]
+    },
+    {
+      "step": "Fill with beef, then add toppings."
+    }
+  ]
+}

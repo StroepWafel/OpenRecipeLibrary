@@ -1,0 +1,178 @@
+{
+  "cor": [
+    "Italy"
+  ],
+  "prep_time": {
+    "amount": 10,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "cook_time": {
+    "amount": 13,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "total_time": {
+    "amount": 25,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "recipe_uuid": "ed6af229-1166-49c7-acd7-1b89521a35fb",
+  "$schema": "https://food-for-eating.com/schema/open-recipe.schema.json",
+  "oven_required": false,
+  "categories": [
+    "Main"
+  ],
+  "cuisine": [
+    "Italian"
+  ],
+  "tags": [
+    "pasta",
+    "creamy",
+    "chicken",
+    "quick",
+    "comfort food"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten"
+  ],
+  "meal_type": [
+    "lunch",
+    "dinner"
+  ],
+  "equipment": [
+    "pot",
+    "pan",
+    "stove"
+  ],
+  "skill_level": "beginner",
+  "recipe_authors": [
+    "StroepWafel"
+  ],
+  "recipe_name": "Creamy Garlic Chicken Pasta",
+  "base_yield": {
+    "amount": 3,
+    "unit": "Serves",
+    "quantity_kind": "count",
+    "unit_system": "metric"
+  },
+  "ingredients": [
+    {
+      "name": "Pasta",
+      "amount": {
+        "amount": 200,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "notes": [
+        "fettuccine or penne"
+      ]
+    },
+    {
+      "name": "chicken breasts",
+      "amount": {
+        "amount": 2,
+        "unit": "each",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "sliced"
+      ]
+    },
+    {
+      "name": "garlic",
+      "amount": {
+        "amount": 3,
+        "unit": "cloves",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "minced"
+      ]
+    },
+    {
+      "name": "thickened cream",
+      "amount": {
+        "amount": 0,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "parmesan",
+      "amount": {
+        "amount": 118.29411825,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "grated"
+      ]
+    },
+    {
+      "name": "butter",
+      "amount": {
+        "amount": 14.78676478125,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "Salt & pepper",
+      "amount": {
+        "amount": 1,
+        "unit": "To taste",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "Spinach or Mushrooms (Or both)",
+      "amount": {
+        "amount": 0.5,
+        "unit": "cup",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      },
+      "notes": [
+        "Optional"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "step": "Cook pasta in salted water until al dente. Reserve ½ cup pasta water."
+    },
+    {
+      "step": "Season chicken with salt and pepper, cook in a pan until golden. Remove."
+    },
+    {
+      "step": "In same pan, melt butter and cook garlic (don’t burn it)."
+    },
+    {
+      "step": "Add cream, simmer 2–3 mins."
+    },
+    {
+      "step": "Stir in parmesan until smooth."
+    },
+    {
+      "step": "Add chicken back in + optional veg."
+    },
+    {
+      "step": "Toss pasta through sauce. Add pasta water if needed."
+    },
+    {
+      "step": "Serve immediately."
+    }
+  ]
+}

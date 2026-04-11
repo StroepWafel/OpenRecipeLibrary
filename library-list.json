@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-04-11T02:41:21Z",
-  "recipe_count": 1,
+  "generated_at": "2026-04-11T15:40:07Z",
+  "recipe_count": 5,
   "normalization": "Labels are matched after lowercasing and collapsing internal whitespace (e.g. 'SwEEt' and 'Swe et' both map to key 'sweet').",
   "by_category": {
     "baked": [
@@ -11,7 +11,13 @@
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ],
     "dessert": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json",
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "main": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json",
+      "by-meal/lunch/easy_beef_tacos__3c567310.json",
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
     ],
     "snack": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
@@ -21,6 +27,18 @@
     ]
   },
   "by_cor": {
+    "china": [
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
+    "france": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json"
+    ],
+    "italy": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json"
+    ],
+    "mexico": [
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
+    ],
     "united states": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ]
@@ -28,38 +46,112 @@
   "by_cuisine": {
     "american": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "chinese": [
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
+    "french": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json"
+    ],
+    "italian": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json"
+    ],
+    "mexican": [
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
     ]
   },
   "by_tag": {
     "baking": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ],
+    "beef": [
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
+    ],
+    "chicken": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json"
+    ],
     "chocolate": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json",
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ],
     "chocolate chip": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ],
+    "comfort food": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json"
+    ],
     "cookies": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ],
+    "creamy": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json"
+    ],
+    "dessert": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json"
+    ],
     "drop cookies": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "leftovers": [
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
+    "no bake": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json"
+    ],
+    "pasta": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json"
+    ],
+    "quick": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json",
+      "by-meal/lunch/easy_beef_tacos__3c567310.json",
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
+    "rice": [
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
+    "simple": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json"
+    ],
+    "stir fry": [
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
+    "street food": [
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
+    ],
+    "tacos": [
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
     ]
   },
   "by_dietary": {
+    "none": [
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
+    ],
     "vegetarian": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json",
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ]
   },
   "by_allergen": {
+    "dairy": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json",
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json",
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
+    ],
+    "egg": [
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
     "eggs": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "gluten": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json",
+      "by-meal/lunch/easy_beef_tacos__3c567310.json"
     ],
     "milk": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ],
     "soy": [
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json",
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ],
     "wheat": [
@@ -68,7 +160,18 @@
   },
   "by_meal_type": {
     "dessert": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json",
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
+    ],
+    "dinner": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json",
+      "by-meal/lunch/easy_beef_tacos__3c567310.json",
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
+    ],
+    "lunch": [
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json",
+      "by-meal/lunch/easy_beef_tacos__3c567310.json",
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json"
     ],
     "snack": [
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
@@ -76,6 +179,10 @@
   },
   "by_skill_level": {
     "beginner": [
+      "by-meal/dessert/3ingredient_chocolate_mousse__7d35bf91.json",
+      "by-meal/lunch/creamy_garlic_chicken_pasta__974b2365.json",
+      "by-meal/lunch/easy_beef_tacos__3c567310.json",
+      "by-meal/lunch/quick_fried_rice__7d5a7262.json",
       "by-meal/snack/chewy_chocolate_chip_cookies__131f9c39.json"
     ]
   }
