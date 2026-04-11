@@ -1,0 +1,150 @@
+{
+  "oven_required": false,
+  "prep_time": {
+    "amount": 3,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "cook_time": {
+    "amount": 10,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "total_time": {
+    "amount": 15,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "categories": [
+    "Main"
+  ],
+  "cor": [
+    "China"
+  ],
+  "cuisine": [
+    "Chinese"
+  ],
+  "tags": [
+    "rice",
+    "quick",
+    "leftovers",
+    "stir fry"
+  ],
+  "allergens": [
+    "soy",
+    "egg"
+  ],
+  "meal_type": [
+    "lunch",
+    "dinner"
+  ],
+  "equipment": [
+    "wok",
+    "pan",
+    "stove"
+  ],
+  "skill_level": "beginner",
+  "recipe_authors": [
+    "StroepWafel"
+  ],
+  "recipe_name": "Quick Fried Rice",
+  "base_yield": {
+    "amount": 3,
+    "unit": "Serves",
+    "quantity_kind": "count",
+    "unit_system": "metric"
+  },
+  "ingredients": [
+    {
+      "name": "Rice",
+      "amount": {
+        "amount": 2,
+        "unit": "cup",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      },
+      "processing": [
+        "cooked"
+      ],
+      "notes": [
+        "day-old is best"
+      ]
+    },
+    {
+      "name": "Eggs",
+      "amount": {
+        "amount": 2,
+        "unit": "each",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "Mixed frozen vegetables",
+      "amount": {
+        "amount": 1,
+        "unit": "cup",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      }
+    },
+    {
+      "name": "Soy sauce",
+      "amount": {
+        "amount": 2,
+        "unit": "tbsp",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      }
+    },
+    {
+      "name": "Vegetable oil",
+      "amount": {
+        "amount": 1,
+        "unit": "tbsp",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      }
+    },
+    {
+      "name": "chicken, prawns, or bacon",
+      "amount": {
+        "amount": 1,
+        "unit": "cup",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": "Heat oil in a pan/wok"
+    },
+    {
+      "step": "Scramble eggs, set aside."
+    },
+    {
+      "step": "Cook any meat if using. "
+    },
+    {
+      "step": "Add veg, cook 2–3 mins."
+    },
+    {
+      "step": "Add rice, break it up."
+    },
+    {
+      "step": "Stir in soy sauce."
+    },
+    {
+      "step": "Add eggs back, mix well."
+    },
+    {
+      "step": "Serve hot."
+    }
+  ],
+  "recipe_uuid": "581f3b06-f60c-405b-bd83-d41b298ac08a",
+  "$schema": "https://food-for-eating.com/schema/open-recipe.schema.json"
+}
