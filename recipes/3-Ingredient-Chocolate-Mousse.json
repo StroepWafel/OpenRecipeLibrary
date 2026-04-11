@@ -1,0 +1,116 @@
+{
+  "oven_required": false,
+  "prep_time": {
+    "amount": 2,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "cook_time": {
+    "amount": 8,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "total_time": {
+    "amount": 2.1,
+    "unit": "h",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "categories": [
+    "Dessert"
+  ],
+  "cor": [
+    "France"
+  ],
+  "cuisine": [
+    "French"
+  ],
+  "tags": [
+    "chocolate",
+    "dessert",
+    "no bake",
+    "simple"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "meal_type": [
+    "dessert"
+  ],
+  "equipment": [
+    "bowl",
+    "whisk",
+    "microwave"
+  ],
+  "skill_level": "beginner",
+  "recipe_authors": [
+    "StroepWafel"
+  ],
+  "recipe_name": "3-Ingredient Chocolate Mousse",
+  "base_yield": {
+    "amount": 2,
+    "unit": "Serves",
+    "quantity_kind": "count",
+    "unit_system": "metric"
+  },
+  "ingredients": [
+    {
+      "name": "dark chocolate",
+      "amount": {
+        "amount": 200,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "Thickened cream",
+      "amount": {
+        "amount": 1,
+        "unit": "cup",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      }
+    },
+    {
+      "name": "sugar",
+      "amount": {
+        "amount": 2,
+        "unit": "tbsp",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
+      },
+      "notes": [
+        "Optional"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "step": "Melt chocolate (microwave or double boiler).\n",
+      "notes": [
+        "Start with a 30-second burst and then remove the bowl to stir thoroughly.",
+        "Continue heating in 15 to 20-second intervals, stirring well after each one until melted and runny."
+      ]
+    },
+    {
+      "step": "Whip cream to soft peaks."
+    },
+    {
+      "step": "Fold chocolate into cream gently.\n"
+    },
+    {
+      "step": "Chill 1–2 hours."
+    },
+    {
+      "step": "Enjoy!"
+    }
+  ],
+  "recipe_uuid": "d936a017-d690-466b-9952-150f7ba35fad",
+  "$schema": "https://food-for-eating.com/schema/open-recipe.schema.json"
+}
