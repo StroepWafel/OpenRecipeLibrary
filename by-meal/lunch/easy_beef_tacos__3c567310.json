@@ -149,10 +149,10 @@
     {
       "name": "Sour cream",
       "amount": {
-        "amount": 0,
-        "unit": "each",
-        "quantity_kind": "count",
-        "unit_system": "metric"
+        "amount": 3,
+        "unit": "tbsp",
+        "quantity_kind": "volume",
+        "unit_system": "us_customary"
       },
       "notes": [
         "optional"
