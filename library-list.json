@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-04-13T03:25:59Z",
+  "generated_at": "2026-04-14T02:57:38Z",
   "recipe_count": 5,
   "normalization": "Labels are matched after lowercasing and collapsing internal whitespace (e.g. 'SwEEt' and 'Swe et' both map to key 'sweet').",
   "by_category": {
