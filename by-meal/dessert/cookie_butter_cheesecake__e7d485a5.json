@@ -1,0 +1,301 @@
+{
+  "$schema": "https://food-for-eating.com/schema/open-recipe.schema.json",
+  "categories": [
+    "dessert",
+    "baked"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "tags": [
+    "cheesecake",
+    "biscoff",
+    "cookie butter",
+    "water bath"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "skill_level": "intermediate",
+  "meal_type": [
+    "dessert"
+  ],
+  "prep_time": {
+    "amount": 30,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "cook_time": {
+    "amount": 80,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "total_time": {
+    "amount": 8,
+    "unit": "h",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "equipment": [
+    "oven",
+    "springform pan",
+    "stand mixer",
+    "food processor",
+    "roasting pan"
+  ],
+  "oven_required": true,
+  "oven_fan": "Off",
+  "oven_temp": {
+    "amount": 160,
+    "unit": "C",
+    "quantity_kind": "temperature",
+    "unit_system": "metric"
+  },
+  "oven_time": {
+    "amount": 80,
+    "unit": "min",
+    "quantity_kind": "duration",
+    "unit_system": "metric"
+  },
+  "recipe_name": "Cookie Butter Cheesecake",
+  "notes": [
+    "All refrigerated ingredients must be at room temperature before mixing. Cold ingredients result in a lumpy batter.",
+    "Do not overmix once the eggs are added. Excess air in the batter causes cracks on the surface during baking.",
+    "This recipe requires a long cooling period. Allow at least 8 hours from start to serving, or prepare it the day before."
+  ],
+  "base_yield": {
+    "amount": 12,
+    "unit": "slices",
+    "quantity_kind": "count",
+    "unit_system": "metric"
+  },
+  "ingredients": [
+    {
+      "name": "Biscoff biscuits",
+      "amount": {
+        "amount": 300,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "finely crushed"
+      ]
+    },
+    {
+      "name": "Unsalted butter",
+      "amount": {
+        "amount": 85,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "melted"
+      ]
+    },
+    {
+      "name": "Salt",
+      "amount": {
+        "amount": 1.25,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      },
+      "amount_alternates": [
+        {
+          "amount": 1.2322303984375,
+          "unit": "ml",
+          "quantity_kind": "volume",
+          "unit_system": "metric"
+        }
+      ],
+      "notes": [
+        "For the crust"
+      ]
+    },
+    {
+      "name": "Cream cheese",
+      "amount": {
+        "amount": 904,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "notes": [
+        "4 standard 226 g blocks",
+        "Room temperature"
+      ]
+    },
+    {
+      "name": "Brown sugar",
+      "amount": {
+        "amount": 220,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "White sugar",
+      "amount": {
+        "amount": 50,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      }
+    },
+    {
+      "name": "Salt",
+      "amount": {
+        "amount": 1.25,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      },
+      "amount_alternates": [
+        {
+          "amount": 1.2322303984375,
+          "unit": "ml",
+          "quantity_kind": "volume",
+          "unit_system": "metric"
+        }
+      ],
+      "notes": [
+        "For the filling"
+      ]
+    },
+    {
+      "name": "Sour cream",
+      "amount": {
+        "amount": 100,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "notes": [
+        "Room temperature"
+      ]
+    },
+    {
+      "name": "Cookie butter",
+      "amount": {
+        "amount": 250,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "notes": [
+        "Room temperature"
+      ]
+    },
+    {
+      "name": "Vanilla extract",
+      "amount": {
+        "amount": 15,
+        "unit": "ml",
+        "quantity_kind": "volume",
+        "unit_system": "metric"
+      },
+      "amount_alternates": [
+        {
+          "amount": 14.78676478125,
+          "unit": "ml",
+          "quantity_kind": "volume",
+          "unit_system": "metric"
+        }
+      ]
+    },
+    {
+      "name": "Eggs",
+      "amount": {
+        "amount": 4,
+        "unit": "eggs",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      },
+      "notes": [
+        "Room temperature"
+      ]
+    },
+    {
+      "name": "Cookie butter",
+      "amount": {
+        "amount": 80,
+        "unit": "g",
+        "quantity_kind": "mass",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "warmed until pourable"
+      ],
+      "notes": [
+        "For the topping; adjust quantity to taste"
+      ]
+    },
+    {
+      "name": "Biscoff biscuits",
+      "amount": {
+        "amount": 8,
+        "unit": "each",
+        "quantity_kind": "count",
+        "unit_system": "metric"
+      },
+      "processing": [
+        "broken into pieces"
+      ],
+      "notes": [
+        "For the topping; adjust quantity to taste"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "step": "Preheat the oven to 163 °C (325 °F). Grease a 23 cm (9-inch) springform pan."
+    },
+    {
+      "step": "Blitz the Biscoff biscuits in a food processor until they form fine crumbs. Combine with the melted butter and salt until the mixture resembles damp sand and holds together when pressed. Press firmly and evenly into the base of the springform pan. Bake for 10 minutes until set, then set aside to cool slightly."
+    },
+    {
+      "step": "In a stand mixer fitted with the paddle attachment, beat the room-temperature cream cheese, brown sugar, white sugar, and salt on medium speed until smooth and creamy. Scrape down the bowl as needed."
+    },
+    {
+      "step": "Add the sour cream, cookie butter, and vanilla extract. Beat on low speed until just combined."
+    },
+    {
+      "step": "Add the eggs one at a time on low speed, mixing only until each one is incorporated before adding the next. Stop mixing as soon as the last egg is combined.",
+      "notes": [
+        "Do not overmix after adding the eggs. Excess air causes cracks during baking."
+      ],
+      "haccp": {
+        "control_point": "Ensure eggs are fully incorporated before adding the next one."
+      }
+    },
+    {
+      "step": "Pour the batter over the cooled crust and smooth the surface. Tap the pan firmly on the bench several times to release any air bubbles."
+    },
+    {
+      "step": "Wrap the outside of the springform pan tightly in two layers of heavy-duty aluminium foil. Place inside a large roasting pan and pour enough boiling water around it to reach 2–3 cm up the sides of the springform pan."
+    },
+    {
+      "step": "Bake at 163 °C for 60–80 minutes, until the edges are set and the centre retains a slight wobble when the pan is gently shaken.",
+      "haccp": {
+        "critical_control_point": "Do not overbake. The centre will continue to set during cooling."
+      }
+    },
+    {
+      "step": "Turn off the oven and leave the cheesecake inside with the door closed until the oven has fully cooled, approximately 1–2 hours."
+    },
+    {
+      "step": "Remove from the water bath, discard the foil, and refrigerate the cheesecake in the pan for at least 4 hours, or overnight, until fully set."
+    },
+    {
+      "step": "Run a thin knife around the edge of the pan, then release and remove the springform ring. Warm the cookie butter until just pourable and spread evenly over the top. Scatter the broken Biscoff biscuit pieces over the surface. Slice and serve chilled."
+    }
+  ],
+  "recipe_uuid": "226c1d46-9aaf-4c17-b8c9-b377f97882ef"
+}
